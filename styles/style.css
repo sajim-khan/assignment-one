@@ -90,29 +90,61 @@
   color: #151414;
 }
 
-
 .skills {
   display: flex;
   gap: 60px;
 }
 
-.my-skill{
-font-weight: 700;
-font-size: 30px;
-line-height: 25px;
-text-align: center;
-color: #151414;
-margin-top: 20px;
-margin-bottom: 20px;
+.my-skill {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+  color: #151414;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.aim{
-font-weight: 500;
-font-size: 19px;
-line-height: 29px;
-text-align: center;
-margin-top: 15px;
-color: #737272;
-font-family: 'Work Sans';
-font-style: normal;
+.aim {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 15px;
+  color: #737272;
+  font-family: "Work Sans";
+  font-style: normal;
 }
+
+/* watch section styles */
+
+.watch {
+  margin-left: 120px;
+  border: collapse;
+}
+.watch-title {
+  position: absolute;
+  width: 459px;
+  height: 94px;
+  left: 170px;
+  top: 1890px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.button {
+position: absolute;
+  width: 160px;
+  height: 64px;
+  left: 170px;
+  top: 2000px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #005fac;
+}
+
+
