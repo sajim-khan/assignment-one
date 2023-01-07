@@ -1,3 +1,118 @@
-.p{
-    color:aqua;
+* {
+  margin: 0;
+}
+
+/* header styles */
+
+.banner {
+  margin-bottom: 100px;
+  height: 700px;
+}
+.banner-title {
+  position: absolute;
+  width: 525px;
+  height: 228px;
+  left: 600px;
+  top: 120px;
+  font-weight: 700;
+  font-size: 55px;
+  text-align: right;
+  color: #ffffff;
+}
+.banner-description {
+  position: absolute;
+  left: 700px;
+  top: 330px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 140px;
+}
+
+.contact-button {
+  position: absolute;
+  width: 160px;
+  height: 54px;
+  left: 965px;
+  top: 440px;
+  font-size: 20px;
+  color: #005fac;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+/* section two */
+
+.section-two {
+  display: flex;
+  gap: 80px;
+  margin: 100px 280px 10px 150px;
+}
+
+.img {
+  width: 400px;
+  height: 500px;
+}
+.section-title {
+  margin-top: 145px;
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.description {
+  font-weight: 400;
+  font-size: 17px;
+  color: #444343;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.list {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-left: 20px;
+}
+
+/* my plane */
+
+.my-plan {
+  margin: 100px 150px;
+}
+
+.my-plan-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+
+
+.skills {
+  display: flex;
+  gap: 60px;
+}
+
+.my-skill{
+font-weight: 700;
+font-size: 30px;
+line-height: 25px;
+text-align: center;
+color: #151414;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.aim{
+font-weight: 500;
+font-size: 19px;
+line-height: 29px;
+text-align: center;
+margin-top: 15px;
+color: #737272;
+font-family: 'Work Sans';
+font-style: normal;
 }
